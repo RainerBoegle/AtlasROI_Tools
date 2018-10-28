@@ -1,5 +1,6 @@
 # AtlasROI_Tools
-Algorithms for using "atlasquery" a tool that comes with FSL from MATLAB. 
+Algorithms for using "atlasquery" from MATLAB. 
+"atlasquery" is a tool that comes with FSL. 
 These tools can extract coordinates from a statistical parameteric mapping SPM results table
 or a NIFTI statistics file via clustering the peak activations,
 and then call "atlasquery" to find the brain regions for each coordinate.

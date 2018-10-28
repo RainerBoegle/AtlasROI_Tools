@@ -1,7 +1,0 @@
-1.) Add a maximal distance that a voxel can migrate from it's original position.
-    Currently it is possible that if TWO (or more) local maxima are just at the minimum distance apart from each other,
-    that this will result in all voxels migrating to the highest local maxima of the two, instead of both being preserved.
-    
-    NB: this is not really a problem, just a very special case and maybe doesn't need to specified,
-        but just fixed by making the iteration algorithm sensitive to the number of iterations, 
-        replacing the <= with < in the distance checks.

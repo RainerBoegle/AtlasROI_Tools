@@ -1,0 +1,7 @@
+theweight	thecolor	theword
+21.4	ff0000	Red
+13.7	00FF00	Green
+18	0000ff	Blue	
+10	ff00ff	Magenta?	
+5	ffff00	Yellow?~Gelb
+5	ffff00	Gelb? Yellow

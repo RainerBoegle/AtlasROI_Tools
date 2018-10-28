@@ -1,0 +1,24 @@
+font:	c:/windows/fonts/georgiab.ttf
+
+format:	tab
+
+inputencoding:	US-ASCII
+
+#inputencoding:	UTF-8
+
+firstline:	headings
+
+wordcolumn:	theword
+
+weightcolumn:	theweight	
+
+colorcolumn:	thecolor	
+
+background:	000000
+
+placement:	Center
+
+#shape:	BLOBBY 
+shape:	SQUARISH
+
+orientation:	MOSTLY_HORIZONTAL

@@ -1,0 +1,12 @@
+1. Try to get some brainstem atlas if possible.
+   a) ask if MRIstudio contains an atlas from Aggarwal???
+   b) try to incorporate this atlas if it is suitable.
+
+2. Portable Version of AtlasTools
+   a) make whole brain mask & smooth a little, then threshold >0.2 (mm accuracy)
+   b) investigate each atlas and write out results in a Cell Array (nVoxelx2)
+      1st column contains coordinates with mm accuracy & 2nd column has atlas entry
+   c) save each as "AtlasName_Brain1mmISO_Inquiry.mat"
+   d) make portable version of codes that use the saved *.mat files for lookup.
+      Use a check for FSL Version for asking user if she wants to use the portable version or possibly newer FSL Version
+   e) check if this lookup is faster, if yes, make it the default version.
